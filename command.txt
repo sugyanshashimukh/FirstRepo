@@ -1,0 +1,8 @@
+git init
+git add myfil.txt
+git config --global user.email "sugyans@gmail.com"
+git commit -m "First commit"
+git remote add origin "https://github.com/sugyanshashimukh/FirstRepo.git"
+git push origin master
+git pull origin master --allow-unrelated-histories
+
